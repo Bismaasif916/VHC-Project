@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Cookie&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Pacifico&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.all-content{
+    background-color: white;
+}
+/* navbar start here */
+#navbar{
+    background-color: #f7f5f2;
+    /* height: 150px; */
+}
+#navbar .nav-item .nav-link{
+    color: black;
+    margin-left: 25px;
+    padding: 15px;
+    font-size: 19px;
+    font-weight: 600;
+    margin-right: 30px;
+    /* margin-top: -50px; */
+}
+#navbar .nav-item .nav-link i{
+    font-size: 18px;
+    margin-right: 8px;
+}
+#logo{
+    margin-left: 25px;
+}    
+/* navbar end here */
+/* color: #D42A2A; */
+
+/* banner start here  */
+.carousel-item{
+    height: 100vh;
+    min-width: 300px;
+}
+/* banner end here  */
