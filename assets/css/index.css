@@ -114,7 +114,7 @@
     margin-left: 70px;
 }
 .img2{
-    /* transform: scale(1.0) rotate(-45deg);  */
+    transform: scale(1.0) rotate(-45deg); 
 }
 .content-3{
     /* position: relative; */
