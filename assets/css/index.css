@@ -109,12 +109,12 @@
     position: absolute;
     /* border-radius: 50px; */
     overflow: hidden;    
-    transform: translate(20%, 3%) rotate(45deg);
+    transform: translate(20%, 3%) rotate(45deg);    
     text-align: center;     
     margin-left: 70px;
 }
 .img2{
-    transform: scale(1.0) rotate(-45deg); 
+    /* transform: scale(1.0) rotate(-45deg);  */
 }
 .content-3{
     /* position: relative; */
