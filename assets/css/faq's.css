@@ -8,7 +8,6 @@
 /* navbar start here */
 #navbar{
     background-color:#f7f5f2 !important;
-    /* height: 150px; */
 }
 #navbar .nav-item .nav-link{
     color: black;
@@ -66,7 +65,6 @@
     margin-right: 20px;
     color: black;
     font-size: 30px;
-    /* margin-left: 150px; */
 } 
 #navbar .nav-item .nav-link:hover{
     color: rgb(201, 142, 201);
@@ -88,14 +86,38 @@
 /* navbar end here */
 
 /* banner start here */
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom: 220px;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 25px;
+    font-weight: bolder ;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 25px;
+    line-height: 1.9;
+    display: inline-block;
+    margin-top: 15px;
+}
 /* banner end here */
 
 /* accordion start here */
 .fq-1{
     text-align: center;
-    margin-top: 35px;
+    font-size: 40px;
+    font-weight: 600;
     font-family: "Poppins", serif;
     color: rgb(201, 142, 201);
+    margin: 40px;
 }
 .accordion{
     max-width: 950px !important;
@@ -137,15 +159,12 @@
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
-/* .fq-content-1{
-   color: black;
-   font-size: 19px;
-   font-family: "Poppins", serif;
-   margin-top: 25px;
-}
-.fq-content-2{
-    color: rgb(201, 142, 201);
-    font-size: 24px;
-    font-family: "Poppins", serif;
-} */
 /* accordion end here */
+
+/* foooter start  */
+.footer{
+    background-color:  rgb(201, 142, 201);
+    margin-top: 30px;
+
+  }
+  /* footer end */

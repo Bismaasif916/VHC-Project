@@ -5,13 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-.all-content{
-    background-color: white;
-}
 /* navbar start here */
 #navbar{
     background-color: #f7f5f2 !important;
-    /* height: 150px; */
 }
 #navbar .nav-item .nav-link{
     color: black;
@@ -68,7 +64,6 @@
     margin-right: 20px;
     color: black;
     font-size: 30px;
-    /* margin-left: 150px; */
 } 
 #navbar .nav-item .nav-link:hover{
     color: rgb(201, 142, 201);
@@ -90,6 +85,28 @@
 /* navbar end here */
 
 /* banner start here */
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom: 220px;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 25px;
+    font-weight: bolder ;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 25px;
+    line-height: 1.9;
+    display: inline-block;
+    margin-top: 15px;
+}
 /* banner end here */
 
 /* about section start here */
@@ -97,18 +114,20 @@
     text-align: center;
     font-size: 40px;
     color: rgb(201, 142, 201);
-    font-weight: 500;
+    font-weight: 600;
     font-family: "Poppins", serif;
-    margin-top: 15px;
+    margin: 40px;
 }
 #ab{
     background-color: #f7f5f2;
+    margin-bottom: 20px;
 }
 .ab-hd-2{
     color: rgb(201, 142, 201);
-    font-size: 35px;
+    font-size: 40px;
     text-align: center;
-    margin-top: 110px;
+    font-weight: 400;
+    margin-top: 100px;
     /* margin-right: 90px; */
 }
 .ab-content-1{
@@ -197,4 +216,17 @@
     color: rgb(201, 142, 201);   
 }
 /* f-logo end */
+
+/* footer start here */
+.footer{
+    background-color:  rgb(201, 142, 201);
+    margin-top: 30px;
+  }
+  .icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+/* footer end here */
+
 
